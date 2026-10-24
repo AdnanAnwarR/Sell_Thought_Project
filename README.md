@@ -23,7 +23,7 @@ Bisnis retail menghadapi risiko **dead stock** — barang yang menumpuk di gudan
 
 ## 2. Dataset
 
-Data yang dipakai adalah `inventory_items.csv` (tidak disertakan di repo karena ukuran/privasi).
+Data yang dipakai adalah `inventory_items.csv` dan **sudah disertakan di repo ini** (± 89,6 MiB / 94 MB). Karena ukurannya cukup besar, clone pertama akan mengunduh file ini. Dataset berisi ± 490 ribu baris unit inventori dengan rentang data 2018–2024.
 
 Kolom utama yang dipakai:
 
@@ -40,7 +40,7 @@ Kolom utama yang dipakai:
 | `product_brand` | Brand produk |
 | `product_distribution_center_id` | ID distribution center |
 
-**Cara menaruh data:** letakkan file dengan nama persis `inventory_items.csv` di root folder proyek (satu folder dengan `app.py` dan notebook). Training membutuhkan file ini; aplikasi **tidak** membutuhkannya karena hanya memakai model yang sudah dilatih.
+**Lokasi data:** file `inventory_items.csv` sudah berada di root folder proyek (satu folder dengan `app.py` dan notebook). Jika mengunduh repo sebagai ZIP, pastikan file tersebut terekstrak di root. Training membutuhkan file ini; aplikasi **tidak** membutuhkannya karena hanya memakai model yang sudah dilatih.
 
 ---
 
@@ -119,6 +119,7 @@ Visualisasi ada di folder `figures/`:
 
 ```
 sellthrough_project/
+├── inventory_items.csv         # Dataset mentah (± 89,6 MiB, sudah disertakan)
 ├── app.py                      # Aplikasi Streamlit (3 tab: Prediksi, Insight, Model & MLOps)
 ├── features.py                 # FeatureBuilder + konstanta fitur (dipakai training & app)
 ├── prep.py                     # Load & cleaning data, handling censoring
@@ -206,7 +207,7 @@ Test ini menjalankan `app.py` lewat `streamlit.testing.v1.AppTest`, memastikan t
 
 ## 7. Menjalankan Ulang Training
 
-Training membutuhkan `inventory_items.csv` di root proyek. Untuk `dl.py` dibutuhkan TensorFlow (tidak termasuk di `requirements.txt` aplikasi).
+Training membutuhkan `inventory_items.csv`, yang sudah tersedia di root proyek. Untuk `dl.py` dibutuhkan TensorFlow (tidak termasuk di `requirements.txt` aplikasi).
 
 ```bash
 # urutan yang disarankan

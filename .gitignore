@@ -16,8 +16,7 @@ __pycache__/
 # ===== Notebook =====
 .ipynb_checkpoints/
 
-# ===== Data mentah (tidak dipush) =====
-inventory_items.csv
+# ===== Data mentah lain (dataset utama inventory_items.csv ikut di-push) =====
 data/
 raw/
 *.zip
