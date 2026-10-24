@@ -1,0 +1,36 @@
+# ===== Environment / virtualenv =====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ===== Notebook =====
+.ipynb_checkpoints/
+
+# ===== Data mentah (tidak dipush) =====
+inventory_items.csv
+data/
+raw/
+*.zip
+
+# ===== Secrets / konfigurasi lokal =====
+.env
+.env.*
+!.env.example
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,11 @@
+params,mean_test_score,std_test_score
+"{'clf__min_samples_leaf': 100, 'clf__max_leaf_nodes': 15, 'clf__max_iter': 150, 'clf__max_depth': 10, 'clf__learning_rate': 0.03, 'clf__l2_regularization': 1}",0.6959759220007807,0.001585871551267489
+"{'clf__min_samples_leaf': 20, 'clf__max_leaf_nodes': 15, 'clf__max_iter': 350, 'clf__max_depth': 10, 'clf__learning_rate': 0.08, 'clf__l2_regularization': 1}",0.6959232022468353,0.0017711368631513538
+"{'clf__min_samples_leaf': 20, 'clf__max_leaf_nodes': 15, 'clf__max_iter': 250, 'clf__max_depth': 6, 'clf__learning_rate': 0.12, 'clf__l2_regularization': 0}",0.6958797819381021,0.0017290940962655852
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 15, 'clf__max_iter': 250, 'clf__max_depth': 6, 'clf__learning_rate': 0.03, 'clf__l2_regularization': 10}",0.695651382416565,0.0018114282202417629
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 31, 'clf__max_iter': 250, 'clf__max_depth': None, 'clf__learning_rate': 0.03, 'clf__l2_regularization': 0}",0.6950788774880631,0.0018290863013475797
+"{'clf__min_samples_leaf': 100, 'clf__max_leaf_nodes': 63, 'clf__max_iter': 150, 'clf__max_depth': 6, 'clf__learning_rate': 0.03, 'clf__l2_regularization': 10}",0.6948322331584582,0.0014632824052154103
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 63, 'clf__max_iter': 350, 'clf__max_depth': 6, 'clf__learning_rate': 0.05, 'clf__l2_regularization': 1}",0.694641855533156,0.001743553677446539
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 63, 'clf__max_iter': 250, 'clf__max_depth': 6, 'clf__learning_rate': 0.12, 'clf__l2_regularization': 10}",0.6945091876694621,0.001785344720316115
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 63, 'clf__max_iter': 350, 'clf__max_depth': None, 'clf__learning_rate': 0.03, 'clf__l2_regularization': 10}",0.693982229235851,0.0016815774677304276
+"{'clf__min_samples_leaf': 300, 'clf__max_leaf_nodes': 63, 'clf__max_iter': 350, 'clf__max_depth': None, 'clf__learning_rate': 0.08, 'clf__l2_regularization': 10}",0.6935063966905841,0.001822123403883243

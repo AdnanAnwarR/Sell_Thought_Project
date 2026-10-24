@@ -1,0 +1,40 @@
+{
+ "ablation_auc": {
+  "Hanya waktu (t_days)": 0.6964599790957051,
+  "Waktu + musim": 0.6992755750401317,
+  "Tanpa waktu (harga/kategori/brand/DC)": 0.49972949910895803,
+  "Semua fitur": 0.6986078130553799
+ },
+ "temporal_holdout_auc": 0.4978587371827655,
+ "temporal_holdout_base_rate_train": 0.30713527802081203,
+ "temporal_holdout_base_rate_test": 0.57465737514518,
+ "best_params": {
+  "min_samples_leaf": 100,
+  "max_leaf_nodes": 15,
+  "max_iter": 150,
+  "max_depth": 10,
+  "learning_rate": 0.03,
+  "l2_regularization": 1
+ },
+ "tuning_best_cv_auc": 0.6959759220007807,
+ "final_holdout": {
+  "auc": 0.6986836780043043,
+  "pr_auc": 0.561274409440692,
+  "logloss": 0.5905476098462568,
+  "brier": 0.20306502041895233,
+  "threshold": 0.29,
+  "f1": 0.5794514096036961,
+  "precision": 0.46340938441670254,
+  "recall": 0.7730237568068936,
+  "base_rate": 0.35689344025969866
+ },
+ "perm_importance_auc_drop": {
+  "created_at": 0.19617117359532266,
+  "cost": 0.00012702154539190325,
+  "product_category": -0.00010681400986223277,
+  "product_brand": -0.0001504349453003151,
+  "product_retail_price": -8.878222613328823e-05,
+  "product_department": -2.819812842602687e-05,
+  "product_distribution_center_id": -1.2553895345712718e-05
+ }
+}

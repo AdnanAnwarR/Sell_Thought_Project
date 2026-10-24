@@ -1,0 +1,10 @@
+# Normalisasi line ending agar konsisten di Windows/macOS/Linux
+* text=auto eol=lf
+
+# File biner
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.joblib binary
+*.npy binary
+*.pkl binary
